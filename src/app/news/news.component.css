@@ -1,19 +1,26 @@
 .row{
-  padding-bottom:400px;
+  padding-bottom:4px;
 }
 .headline{
   font-family: "Bree Serif", serif;
   border: 2px solid rgb(59, 4, 187);
   padding:5px;
-  box-shadow: 2px 2px 2px 2px #888888;
+  box-shadow: 1px 1px 1px 1px #888888;
 }
 .heading{
   color:#ff7433;
 }
 .btn{
-  color:#fff;
+  color:#ff7433;
   border: 2px solid #ff7433;
-  background-color: #ff7433;
-  padding: 4px
+  background-color: #fff;
+  font-size: 15px;
+  padding: 8px;
+  text-transform: uppercase;
+  text-decoration: none;
 
+}
+.paginatn{
+  padding-top:10px;
+  text-align: center;
 }
