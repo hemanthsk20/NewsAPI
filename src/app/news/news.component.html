@@ -8,6 +8,12 @@
    <p> <a class="btn" href="{{article.url}}">Read full article</a></p>
     
   </div>
+  <div>
+<button (click) ="firstPage()" mat-button> First</button>
+<button (click) ="previousPage()" mat-button> Previous</button>
+<button (click) ="nextPage()" mat-button> Next</button>
+<button (click) ="lastPage()" mat-button> Last</button>
+</div>
 </div>
 
 <!-- <mat-card-actions class="action-buttons">
