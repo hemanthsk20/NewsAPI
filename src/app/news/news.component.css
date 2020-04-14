@@ -1,0 +1,18 @@
+.row{
+  padding-bottom:400px;
+}
+.headline{
+  font-family: "Bree Serif", serif;
+  border: 2px solid rgb(59, 4, 187);
+  padding:5px;
+}
+.heading{
+  color:#ff7433;
+}
+.btn{
+  color:#fff;
+  border: 2px solid #ff7433;
+  background-color: #ff7433;
+  padding: 4px
+
+}

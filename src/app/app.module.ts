@@ -7,9 +7,10 @@ import { HelloComponent } from './hello.component';
 import { ApiService } from './api.service';
 import { HttpClientModule } from '@angular/common/http';
 import { NewsComponent } from './news/news.component';
+import { NavbarComponent } from './navbar/navbar.component';
 @NgModule({
-  imports:      [ BrowserModule, FormsModule, HttpClientModule ],
-  declarations: [ AppComponent, HelloComponent, NewsComponent ],
+  imports:      [ BrowserModule, FormsModule, HttpClientModule, ],
+  declarations: [ AppComponent, HelloComponent, NewsComponent, NavbarComponent ],
   entryComponents: [],
   bootstrap:    [ AppComponent ],
   providers: [ApiService]
