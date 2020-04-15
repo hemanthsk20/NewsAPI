@@ -3,12 +3,20 @@
 }
 .headline{
   font-family: "Bree Serif", serif;
-  border: 2px solid rgb(59, 4, 187);
+  border: 2px solid rgb(109, 107, 114);
   padding:5px;
   box-shadow: 1px 1px 1px 1px #888888;
 }
+.auth{
+  font-weight: 100;
+  font-size:12px;
+}
 .heading{
   color:#ff7433;
+  /*background: linear-gradient(to bottom, #ff7433, #ff6433);*/
+  font-family: aktiv-grotesk,sans-serif;
+  font-weight: 800;
+  line-height: 1.1;
 }
 .btn{
   color:#ff7433;
@@ -23,4 +31,31 @@
 .paginatn{
   padding-top:10px;
   text-align: center;
+}
+
+.article-content{
+  font-weight: 400;
+    color: #333;
+    letter-spacing: -.1px;
+    margin: 20px 0;
+}
+.sub-head{
+  color:#00d301;
+}
+
+.col-12{
+  width: 99.9%;
+}
+.col-6{
+  width: 48.8%
+}
+.col-4{
+  width:24.8%;
+}
+.col-3{
+  width:32.33%
+}
+.sub-head{
+  font-weight:bold;
+  text-transform: uppercase;
 }
