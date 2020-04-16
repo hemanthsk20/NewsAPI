@@ -3,9 +3,10 @@
 }
 .headline{
   font-family: "Bree Serif", serif;
-  border: 2px solid rgb(109, 107, 114);
+  border: 1px solid rgb(109, 107, 114);
   padding:5px;
   box-shadow: 1px 1px 1px 1px #888888;
+  border-radius:20px;
 }
 .auth{
   font-weight: 100;
