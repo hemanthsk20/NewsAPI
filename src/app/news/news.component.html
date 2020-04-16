@@ -5,18 +5,19 @@
     <div class="article-content">
     <p>
       {{article.description}}
-      
     </p>
     </div>
-   <p> <a class="btn" href="{{article.url}}">Read full article</a></p>
-    
-  </div>
+     <img alt="Sprout.ai founders" class="article__featured-image"  src="{{article.urlToImage}}" srcset="{{article.urlToImage}}">
   <div class="paginatn">
+   <p class="center"> <a class="btn" target="blank" href="{{article.url}}">Read full article</a></p>
+  </div>
+  
+</div>
+<div class="paginatn">
 <button (click) ="firstPage()" mat-button> First</button>
 <button (click) ="previousPage()" mat-button> Previous</button>
 <button (click) ="nextPage()" mat-button> Next</button>
 <button (click) ="lastPage()" mat-button> Last</button>
-</div>
 </div>
 
 <!-- <mat-card-actions class="action-buttons">

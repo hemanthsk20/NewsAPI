@@ -43,6 +43,14 @@
 .sub-head{
   color:#00d301;
 }
+.center{
+  text-align: center;
+}
+.article__featured-image{
+  width:80%;
+margin: auto;
+display: block;
+}
 
 .col-12{
   width: 99.9%;
